@@ -41,6 +41,8 @@
 
 .titulo{
     font-family: var(--titulos);
+    background-color: var(--B);
+    color: rgb(136, 0, 248);
     text-align: center;
     font-size: 3rem;
     text-shadow: aliceblue 0 0 16px;
@@ -53,6 +55,7 @@
 body{
     min-height: 100vh;
     font-family: var(--texto);
+    color: rgb(194, 106, 5);
 
     
     
