@@ -1,0 +1,74 @@
+/* * google fonts */ 
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=UnifrakturMaguntia&display=swap');
+
+ 
+
+
+/* normalize */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root{
+    /* Colores */
+    --A:#392467bd;
+    --B:#5d3587a4;
+    --C:#a367b1a6;
+    --D:#ffd1e3a8;
+
+    ---Gadien-1:linear-gradient( 358.4deg,  rgba(249,151,119,1) -2.1%, rgba(98,58,162,1) 90% ) no-repeat;
+
+    /* Fuentes */
+    --titulos: 'UnifrakturCook', cursive;
+    --texto: 'UnifrakturMaguntia', cursive;
+
+}
+
+/* Animacion */
+@keyframes titular{
+    10%{
+        transform: rotateX(360deg);
+
+    }
+    0%{
+        transform: scale(50%);
+    }
+}
+
+.titulo{
+    font-family: var(--titulos);
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: aliceblue 0 0 16px;
+    padding: 15px 0px;
+    animation-name: titular;
+
+    animation-duration: 2.5s;
+}
+
+body{
+    min-height: 100vh;
+    font-family: var(--texto);
+
+    
+    
+    
+    background: var(---Gadien-1);
+    background-size: cover;
+}
+
+.conteiner-a1{
+    display: flex;
+    flex-flow: row;
+    padding: 15px;
+    column-gap: 15px;
+}
+
+.conteiner-a1 img{
+    width: 50%;
+    border-radius: 12px;
+}
